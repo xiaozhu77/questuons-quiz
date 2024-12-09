@@ -7,7 +7,7 @@ function Finished({ points, maxPossiblePoints, Highlight }) {
   if (percentage >= 50 && percentage < 80) emoji = "🥉";
   if (percentage >= 0 && percentage < 50) emoji = "😐";
   if (percentage === 0) emoji = "😭";
-
+  
   return (
     <>
       <p className="result">
@@ -21,3 +21,6 @@ function Finished({ points, maxPossiblePoints, Highlight }) {
 }
 
 export default Finished;
+
+
+
